@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            height: 119px;
+            width: 73px;
+            background: url(./img/hua.jpg) left no-repeat;
+            animation: hua 3s steps(6) infinite;
+        }
+        @keyframes hua{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: -438px 0;
+            }
+        }
+        .box2{
+            height: 280px;
+            width: 160px;
+            background: url(./img/walk.jpg) left no-repeat;
+            animation: walk 3s steps(6) infinite;
+        }
+        @keyframes walk{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: -1080px 0;
+            }
+        }
+        .box3{
+            height: 682px;
+            width: 662px;
+            background: url(./img/jd.png) left no-repeat;
+            animation: jd 3s steps(3) infinite;
+        }
+        @keyframes jd{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: 0 -2045px;
+            }
+        }
+        .box4{
+            height: 100px;
+            width: 100px;
+            background: url(./img/loading.png) left no-repeat;
+            animation: loading 3s steps(8) infinite;
+        }
+        @keyframes loading{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: -800px 0;
+            }
+        }
+        .box5{
+            height: 140px;
+            width: 140px;
+            background: url(./img/run.png) left no-repeat;
+            animation: run 3s steps(12) infinite;
+        }
+        @keyframes run{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: -1680px 0;
+            }
+        }
+        .box6{
+            height: 156px;
+            width: 137.2px;
+            background: url(./img/run2.png) left no-repeat;
+            animation: run2 3s steps(10) infinite;
+        }
+        @keyframes run2{
+            from{
+                background-position: 0 0;
+            }
+            to{
+                background-position: -1372px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+</body>
+</html>
